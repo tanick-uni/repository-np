@@ -413,33 +413,6 @@ Section: x11
 Priority: extra
 Description: Calculate in an elementary way.
 
-Package: papirus-icon-theme
-Version: 20230104-2~bpo11+1
-Architecture: all
-Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
-Installed-Size: 202395
-Depends: hicolor-icon-theme
-Recommends: librsvg2-common
-Suggests: gtk-update-icon-cache
-Filename: ./papirus-icon-theme_20230104-2~bpo11+1_all.deb
-Size: 22900456
-MD5sum: b559234e24d4c3fe6d105b1c7b068e5d
-SHA1: f2c2202f492b4dbc361b12a9a1f0354578eea368
-SHA256: e6355e7f757fb5662250af74ef5a342d0b9a13ea1b4d697c31df74ea8f982fc8
-Section: x11
-Priority: optional
-Homepage: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
-Description: Papirus open source icon theme for Linux
- Papirus is a SVG-based icon theme, drawing inspiration from Material Design
- and flat design.
- .
- This package contains the following icon themes:
-  - Papirus
-  - Papirus-Dark
-  - Papirus-Light
-  - ePapirus
-  - ePapirus-Dark
-
 Package: plymouth-theme-link
 Version: 1.0
 Architecture: all
@@ -494,10 +467,10 @@ Installed-Size: 265
 Depends: procps, bc, pciutils
 Recommends: scrot
 Filename: ./screenfetch_3.9.1-2+uni1_all.deb
-Size: 62368
-MD5sum: 4adaca464e9cde2214cc5f93cb65a4a2
-SHA1: 485dee54fcf60f18fc5071c86c62c37cb97fdd57
-SHA256: 8bb47ac36104b20a08051b0ad49f682ca8f280b51b44105e9c388ddac6a96884
+Size: 62352
+MD5sum: 90d3bbe2e309bf2f49aa3c7fdf038935
+SHA1: ec58ceeadf3bedfc8f4c00c73ad51a5b870b5b00
+SHA256: 887882f446ada3fbe90307dd04a945fdb942b43408f2b549561a3fc4c3bc8483
 Section: utils
 Priority: optional
 Multi-Arch: foreign
@@ -626,6 +599,19 @@ SHA256: 4ba559865769d9807891c054916d89ccf688f5d3327d17894c9f19e20b15ec00
 Section: unknown
 Priority: optional
 Description: Japanese localization for uni desktop.
+
+Package: uni-os-release
+Version: 1.0
+Architecture: all
+Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
+Filename: ./uni-os-release_1.0_all.deb
+Size: 1664
+MD5sum: 4bf6edc368616d45258922cec725ad58
+SHA1: 896859fe8a41fb6a0777fe3e6de161e9211b599a
+SHA256: 966b614484c5116c38793586d4e26de6b08a6032a18a7b9e0fd5574ffa062ec7
+Section: unknown
+Priority: optional
+Description: Configurate uni-os release version.
 
 Package: uni-session
 Version: 0.8
