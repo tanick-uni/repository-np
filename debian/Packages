@@ -214,10 +214,10 @@ Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
 Depends: jgmenu, papirus-icon-theme
 Recommends: uni-desktop-jwm, tint2-theme-link
 Filename: ./jgmenu-theme-link_0.8_all.deb
-Size: 3520
-MD5sum: e12d1aad3b44e87c9eb010fcc742cc31
-SHA1: 618e60a9ed4d69320144fb97c66e50a025c716de
-SHA256: fc9acb612eda98c1e98b7f74f0c03fe2de338d50ae9677706b8bc5df008c479d
+Size: 3552
+MD5sum: 2ad283e6794cb85f76755554fb586be6
+SHA1: 16eee81a2a2d94151a4846bcc113d989f22f44cd
+SHA256: c6c697a900046422cf35d606f4a6c56aef999383f8f8dcd61d27c61098da862a
 Section: unknown
 Priority: optional
 Description: jgmenu theme for uni desktop
@@ -517,10 +517,10 @@ Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
 Depends: tint2, fonts-noto, papirus-icon-theme, jgmenu-theme-link, uni-session, xdotool, zenity, pulseaudio, alsa-utils, bc, light, acpi, redshift, gsimplecal
 Recommends: uni-control-center, pcmanfm, firefox-esr, uni-desktop-jwm
 Filename: ./tint2-theme-link_0.8_all.deb
-Size: 16836
-MD5sum: d308aa7efbb3fb423e3a21f591fddfe4
-SHA1: ef9431015c2c51aeb3894fc2867494c1044f8411
-SHA256: 88e42c74c13f3c92ba9306323cd502ff428b5b3c741f15d365ec228e6285669c
+Size: 16880
+MD5sum: 69eec09c58107c6ddcfdfea9f0be1033
+SHA1: 86d914f80dc1e79571f035b91fad6f2b8e750acc
+SHA256: 996d6d15978ecfb2a7038e2de3c366325bbc92771ecf6df0b030ccbe4f86cc5b
 Section: unknown
 Priority: optional
 Description: tint2 theme for uni desktop
@@ -561,10 +561,10 @@ Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
 Depends: fonts-noto, arc-theme, papirus-icon-theme, adwaita-icon-theme, qt5ct, qt5-gtk2-platformtheme
 Recommends: l3afpad, lxterminal, viewnior
 Filename: ./uni-desktop-config_0.8_all.deb
-Size: 3560
-MD5sum: 6e0f443915a2a64230f336c871d6c9d1
-SHA1: be286c20e0314145050b9391d0fb8def5f597c04
-SHA256: 6da49f040dfed3bca6897bfe0fd7d2a1dfa20ffaa49949f6bdfa76d2db931b85
+Size: 3672
+MD5sum: 50209e7d070870ab13f26e1f74577fa5
+SHA1: 8dc26a60d23f73a67a630f1072d2fbf3950f84dc
+SHA256: 6eb9129323f84ca745ce3238a33f91aaa5481ef01f70f4f67c072207bae7511b
 Section: unknown
 Priority: optional
 Description: Default configuration for uni desktop
@@ -575,10 +575,10 @@ Architecture: all
 Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
 Depends: jwm, tint2-theme-link, jgmenu-theme-link, xdg-user-dirs, pcmanfm, file-roller, uni-wallpapers, blueberry, network-manager-gnome, diodon, package-update-indicator, gnome-package-updater, policykit-1-gnome, xfce4-notifyd, xcape, scrot, uni-control-center, lxterminal, lxtask, uni-session
 Filename: ./uni-desktop-jwm_0.8_all.deb
-Size: 4656
-MD5sum: d4ba75fbfccfc59dc1180677d4b5aed1
-SHA1: e209ce82f69b065381858d8ccbcd15e758745c18
-SHA256: b63e712717436cbdb258667b6c750eead37a6189f4d576b78f54e6ec6c35f335
+Size: 4744
+MD5sum: 54c9edbf084a6ba2a4535b6d5c8d87fc
+SHA1: f5c62d642a7bca1b1c91bddbcad6c83d775ab357
+SHA256: f919bb64df86ee3a2d6159b4a7578c0287710bfb2e9fd98a0c032cbe37d1e4d9
 Section: unknown
 Priority: optional
 Description: JWM configuration for uni desktop
@@ -604,11 +604,12 @@ Package: uni-os-release
 Version: 1.0
 Architecture: all
 Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
+Depends: grub-theme-zorin
 Filename: ./uni-os-release_1.0_all.deb
-Size: 1664
-MD5sum: 4bf6edc368616d45258922cec725ad58
-SHA1: 896859fe8a41fb6a0777fe3e6de161e9211b599a
-SHA256: 966b614484c5116c38793586d4e26de6b08a6032a18a7b9e0fd5574ffa062ec7
+Size: 2064
+MD5sum: 9fc4b45cbaeee26b5c3b7ea485f6ad39
+SHA1: 6d4ecec6e446a2ed9467fa75fa7c5cc0fdcb1e6e
+SHA256: a86dfb774e98853a79ece7fe89ada8690edd450ac7220ab540245b9fbbda9293
 Section: unknown
 Priority: optional
 Description: Configurate uni-os release version.
