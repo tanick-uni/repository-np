@@ -606,10 +606,10 @@ Architecture: all
 Maintainer: Yamato Tanikawa <tanick_developer@outlook.jp>
 Depends: grub-theme-zorin
 Filename: ./uni-os-release_1.0_all.deb
-Size: 2020
-MD5sum: 73dd535914444ab69aaf6efa600ddf6f
-SHA1: a06b76b2710ea8c730bc53f8ee76fa3d1bdd060f
-SHA256: 06cc991e71285af56f1a87fcf64da2d9f463d465bc536214a04f22d4de0635b8
+Size: 2032
+MD5sum: 114586f29891104026c141c899b0797c
+SHA1: a3072c85fdcc279ddc9a7fac67c0db9204884671
+SHA256: 48c503a9f92c84f4b57c5735007fee85f4489387807426f6347b9306a2c89156
 Section: unknown
 Priority: optional
 Description: Configurate uni-os release version.
